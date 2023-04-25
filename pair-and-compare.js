@@ -5,12 +5,12 @@
 //5. If none of the pairs is truthy, print "false"
 
 var param1A = "five"; // Change this to test different values
-var param1B = 5; // Change this to test different values
+var param1B = "5"; // Change this to test different values
 
 var param2A = "dog"; // Change this to test different values
 var param2B = "dawg"; // Change this to test different values
 
-if ((param1A && param1B) === true || (param2A && param2B) === true) {
+if ((param1A === param1B)  || (param2A === param2B) ) {
   console.log(true);
 } else {
   console.log(false);
